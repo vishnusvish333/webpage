@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
+
+body{
+    line-height: 1.8;
+    color:#000000;
+    font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    letter-spacing:1px;
+    color: rgb(2, 6, 20);
+}
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+    color: rgb(96, 243, 37);
+}
+img{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:rgb(116, 247, 51);
+}
+#home{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(244, 245, 244), rgba(23, 194, 1, 0.5)),url(../images/embrrk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home1{
+    background-color: rgb(125, 241, 79);
+}
+.carousel-control-prev .carousel-control-next{
+    color: rgb(10, 6, 1);
+}
+
+.hhh{
+    text-align: center;
+}
+
+/* footer section*/
+.footer {
+    background: #f6f9ff;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+  }
+  
+  .footer .footer-newsletter {
+    padding: 50px 0;
+    background: #f6f9ff;
+    border-top: 1px solid #e1ecff;
+  }
+  
+  .footer .footer-newsletter h4 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    color: #012970;
+  }
+  
+  .footer .footer-newsletter form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #e1ecff;
+  }
+  
+  .footer .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 8px;
+    width: calc(100% - 140px);
+  }
+  
+  .footer .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 30px;
+    margin: 3px;
+    background: #4154f1;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+  }
+  
+  .footer .footer-newsletter form input[type=submit]:hover {
+    background: #5969f3;
+  }
+  
+  .footer .footer-top {
+    background: white url(../images/embark.png) no-repeat left top;
+    background-size: contain;
+    border-top: 1px solid #e1ecff;
+    border-bottom: 1px solid #e1ecff;
+    padding: 60px 0 30px 0;
+  }
+  
+  @media (max-width: 992px) {
+    .footer .footer-top {
+      background-position: center bottom;
+    }
+  }
+  
+  .footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+  
+  .footer .footer-top .footer-info .logo {
+    line-height: 0;
+    margin-bottom: 15px;
+  }
+  
+  .footer .footer-top .footer-info .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  
+  .footer .footer-top .footer-info .logo span {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+  }
+  
+  .footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .footer .footer-top .social-links a {
+    font-size: 20px;
+    display: inline-block;
+    color: rgba(1, 41, 112, 0.5);
+    line-height: 0;
+    margin-right: 10px;
+    transition: 0.3s;
+  }
+  
+  .footer .footer-top .social-links a:hover {
+    color: #012970;
+  }
+  
+  .footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #012970;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  .footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  .footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #d0d4fc;
+    font-size: 12px;
+    line-height: 0;
+  }
+  
+  .footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  .footer .footer-top .footer-links ul a {
+    color: #1b3118;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  .footer .footer-top .footer-links ul a:hover {
+    color: #020503;
+  }
+  
+  .footer .footer-top .footer-contact p {
+    line-height: 26px;
+  }
+  
+  .footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #04a119;
+  }
+  
+  .footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #0c0604;
+  }
+  
+  /* end footer section*/
